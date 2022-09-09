@@ -22,6 +22,9 @@ GET /item/{id}, c помощью которого можно получить п
    venv\Scripts\activate.bat - для Windows;
    source venv/bin/activate - для Linux и MacOS.
    pip install -r requirements.txt
+   python manage.py makemigrations
+   python manage.py migrate
+   python manage.py createsuperuser #необходимо в панеле администратора создать пару объектов
    python manage.py runserver
 ```
 
